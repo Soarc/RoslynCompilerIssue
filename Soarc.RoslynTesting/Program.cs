@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Soarc.NetstandardLib;
+using System;
 using System.Threading.Tasks;
 
 namespace Soarc.RoslynTesting
@@ -7,16 +8,13 @@ namespace Soarc.RoslynTesting
     {
         static void Main(string[] args)
         {
-            var res = RunTest().GetAwaiter().GetResult();
+            var superargs=ValueTupleContainer.GetArgs();
 
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
 
-        static async Task<ResultList> RunTest()
-        {
-            IReadFacade facade = new ReadFacade(new Repository());
-            return await facade.GetAll("cont", 10);
-        }
+        
+
     }
 }
