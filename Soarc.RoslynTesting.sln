@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soarc.RoslynTesting", "Soarc.RoslynTesting\Soarc.RoslynTesting.csproj", "{762E026A-999D-4DE6-8349-E61C63B3B531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soarc.NetstandardLib", "Soarc.NetstandardLib\Soarc.NetstandardLib.csproj", "{61510CD1-9EC2-4A36-B3A0-53D0A0E1C498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762E026A-999D-4DE6-8349-E61C63B3B531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762E026A-999D-4DE6-8349-E61C63B3B531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762E026A-999D-4DE6-8349-E61C63B3B531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762E026A-999D-4DE6-8349-E61C63B3B531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61510CD1-9EC2-4A36-B3A0-53D0A0E1C498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61510CD1-9EC2-4A36-B3A0-53D0A0E1C498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61510CD1-9EC2-4A36-B3A0-53D0A0E1C498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61510CD1-9EC2-4A36-B3A0-53D0A0E1C498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51F4408C-DD7E-4C4B-BCC6-A95D4842A04E}
+	EndGlobalSection
+EndGlobal
